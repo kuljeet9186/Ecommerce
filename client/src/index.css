@@ -41,10 +41,9 @@ font-family: 'Sacramento', cursive; */
 }
 
 .footer{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  position: relative;
+  /* display: none; */
+  
   color: white;
   padding: 25px;
   background: #000000; /* fallback for old browsers */
@@ -106,3 +105,9 @@ font-family: 'Sacramento', cursive; */
   justify-content: center;
 }
 
+
+
+.product-link{
+  text-decoration: none;
+  color: #000000 !important;
+}

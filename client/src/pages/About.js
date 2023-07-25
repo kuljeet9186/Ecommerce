@@ -1,28 +1,24 @@
 import React from "react";
 import Layout from "./../components/layout/Layout";
+//import "../Styles/AboutStyle.css";
 
 const About = () => {
   return (
     <Layout title={"About us - Ecommerce app"}>
-      <div className="row contactus ">
-        <div className="col-md-6 ">
-          <img
-            src="/images/about.jpeg"
-            alt="contactus"
-            style={{ width: "100%" }}
-          />
-        </div>
-        <div className="col-md-4">
-          <p className="text-justify mt-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            officiis obcaecati esse tempore unde ratione, eveniet mollitia,
-            perferendis eius temporibus dicta blanditiis doloremque explicabo
-            quasi sunt vero optio cum aperiam vel consectetur! Laborum enim
-            accusantium atque, excepturi sapiente amet! Tenetur ducimus aut
-            commodi illum quidem neque tempora nam.
-          </p>
-        </div>
-      </div>
+     <div className="about-section">
+  <div className="inner-container">
+    <h1>About Us</h1>
+    <p className="text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit ducimus, enim inventore earum, eligendi nostrum pariatur necessitatibus eius dicta a voluptates sit deleniti autem error eos totam nisi neque voluptates sit deleniti autem error eos totam nisi neque.
+    </p>
+    <div className="skills">
+      <span className="active">Web Design</span>
+      <span>Pro Develpor</span>
+      <span>Android Develpor</span>
+    </div>
+  </div>
+</div>
+
     </Layout>
   );
 };

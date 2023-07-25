@@ -1,0 +1,130 @@
+
+
+.bodyx{
+    background-color: #1d1e30;
+    overflow: hidden;
+}
+
+.ax{
+    text-decoration: none;
+}
+
+
+.imagex{
+    
+    margin: 5px;
+    width: 250px;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+}
+
+.imagex img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+.product-detailsx{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+
+.product-namex{
+    display: flex;
+    flex-direction: column;
+}
+
+.product-namex a{
+    color: #fff;
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+span{
+    color: rgb(228, 225, 225);
+}
+
+.pricex{
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 23px;
+}
+
+.Buttonx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.btnx{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 25px;
+   height: 50px;
+   width: 150px;
+   background-color: #f02c2c;
+   color: #fff;
+   font-size: 20px;
+   font-weight: bolder;
+}
+
+.btnx:hover{
+    background-color: #fff;
+    color: #f02c2c;
+    transition: all ease 1s;
+}
+
+.Buttonx{
+    visibility: hidden;
+}
+
+.imagex:hover .Buttonx{
+    visibility: visible;
+    animation: animation 1s;
+}
+
+@keyframes animation{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.containerx{
+    display: flex;
+    justify-content: left;
+    height: 600px;
+    width: 4000px;
+    margin: 10px auto;
+    transform: translateX(0);
+    transition: all 0.5s ease-in-out;
+}
+
+.arrow{
+    position: absolute;
+    top: 200px;
+    right: 0px;
+    color: #fff;
+    font-size: 125px;
+    cursor: pointer;
+}
+
+
+
